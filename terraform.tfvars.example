@@ -1,0 +1,14 @@
+location               = "brazilsouth"
+name_prefix            = "kaique-cloud-lab"
+address_space          = ["10.20.0.0/16"]
+enable_log_analytics   = false
+
+subnet_prefixes = {
+  app        = "10.20.1.0/24"
+  data       = "10.20.2.0/24"
+  management = "10.20.3.0/24"
+}
+
+tags = {
+  purpose = "portfolio-learning"
+}
